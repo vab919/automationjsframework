@@ -1,0 +1,587 @@
+[
+  {
+    "description": "        description this feature file find and validate \"Hello World\" component on kaiser page.",
+    "elements": [
+      {
+        "id": "kaiser-web-page---hello-component-validation;validating-hello-component",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validating Hello Component",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit AEM webpage \"/content/productzero/comp-automation-page.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 2337076
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for  \"COMP-AUTOMATION-PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 1022078402
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the \"COMP-AUTOMATION-PAGE\"",
+            "result": {
+              "status": "passed",
+              "duration": 145870311
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kaiser-web-page---hello-component-validation;validating-instance-and-resource-type",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Validating Instance and Resource Type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit AEM webpage \"/content/productzero/comp-automation-page.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 564981
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for body content \"This is a home page\"",
+            "result": {
+              "status": "passed",
+              "duration": 472282874
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the body content \"This is a home page\"",
+            "result": {
+              "status": "passed",
+              "duration": 129416282
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:35"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kaiser-web-page---hello-component-validation;validating-instance-and-resource-type",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Validating Instance and Resource Type",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit AEM webpage \"/content/productzero/comp-automation-page.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 429824
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for body content \"Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.\"",
+            "result": {
+              "status": "passed",
+              "duration": 335605895
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the body content \"Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.\"",
+            "result": {
+              "status": "passed",
+              "duration": 158752842
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/HelloComponent.js:35"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "kaiser-web-page---hello-component-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Kaiser Web Page - Hello component validation",
+    "tags": [],
+    "uri": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/kpHelloComponent.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "zipcode-search-displays-list-of-facilities;validate-if-zipcode-textbox-is-present-in-the-given-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validate if Zipcode Textbox is Present in the given Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 846216
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the Zipcode Textbox",
+            "result": {
+              "status": "passed",
+              "duration": 634569455
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:35"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zipcode-search-displays-list-of-facilities;validate-if-search-button-is-present-in-the-given-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Validate if SEARCH Button is Present in the given Page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 349398
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I validate the SEARCH Button",
+            "result": {
+              "status": "passed",
+              "duration": 141574671
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:38"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zipcode-search-displays-list-of-facilities;enter-my-zip-code-so-that-i-can-see-what-facilities",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Enter my zip code so that I can see what facilities",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 85207
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"30606\" in the textbox",
+            "result": {
+              "status": "passed",
+              "duration": 425606807
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select Region as \"GGA\"",
+            "result": {
+              "status": "passed",
+              "duration": 526963822
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click SEARCH button",
+            "result": {
+              "status": "passed",
+              "duration": 765751014
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see the list of facilities with \"Athens Regional Medical Center\" and Address as \"1199 Prince Avenue\" in the first row",
+            "result": {
+              "status": "passed",
+              "duration": 443142792
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:50"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zipcode-search-displays-list-of-facilities;enter-my-zip-code-so-that-i-can-see-what-facilities",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Enter my zip code so that I can see what facilities",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 59336
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"94545\" in the textbox",
+            "result": {
+              "status": "passed",
+              "duration": 291031382
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select Region as \"NCA\"",
+            "result": {
+              "status": "passed",
+              "duration": 423721291
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click SEARCH button",
+            "result": {
+              "status": "passed",
+              "duration": 583405062
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see the list of facilities with \"Cronin House\" and Address as \"2595 Depot Rd\" in the first row",
+            "result": {
+              "status": "passed",
+              "duration": 388089849
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:50"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zipcode-search-displays-list-of-facilities;enter-invalid-zip-code-and-valid-region",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Enter invalid zip code and valid region",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 104593
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter valid Zipcode with \"94545\" in the textbox",
+            "result": {
+              "status": "passed",
+              "duration": 237052994
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select Region as \"GGA\"",
+            "result": {
+              "status": "passed",
+              "duration": 280445501
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click SEARCH button",
+            "result": {
+              "status": "passed",
+              "duration": 517214800
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I do not see the list of facilities",
+            "result": {
+              "status": "passed",
+              "duration": 122003586
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:73"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "zipcode-search-displays-list-of-facilities;enter-invalid-zip-code-and-valid-region",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Enter invalid zip code and valid region",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website with url \"/content/productzero/dec10morning.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 101466
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter valid Zipcode with \"30605\" in the textbox",
+            "result": {
+              "status": "passed",
+              "duration": 358154124
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select Region as \"NCA\"",
+            "result": {
+              "status": "passed",
+              "duration": 344597388
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click SEARCH button",
+            "result": {
+              "status": "passed",
+              "duration": 630755168
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I do not see the list of facilities",
+            "result": {
+              "status": "passed",
+              "duration": 175749604
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:73"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "zipcode-search-displays-list-of-facilities",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Zipcode Search displays list of facilities",
+    "tags": [],
+    "uri": "/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/FFL_ZipCode.feature"
+  }
+]

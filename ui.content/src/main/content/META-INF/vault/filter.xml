@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <!-- <filter root="/content/productzero"/>  -->
+    <filter root="/content/dam/productzero"/> 
+    <filter root="/content/productzero/en/automation">
+    <exclude pattern="/content/productzero" />
+    </filter> 
+</workspaceFilter>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490119462761" stop="1490119470557">
+	<name>Zipcode Search displays list of facilities</name>
+	<title>Zipcode Search displays list of facilities</title>
+	<test-cases>
+		<test-case start="1490119462762" stop="1490119463062" status="passed">
+			<name>Validate if Zipcode Textbox is Present in the given Page</name>
+			<title>Validate if Zipcode Textbox is Present in the given Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119462763" stop="1490119462765" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119462765" stop="1490119463061" status="passed">
+					<name>I validate the Zipcode Textbox</name>
+					<title>I validate the Zipcode Textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490119463064" stop="1490119463147" status="passed">
+			<name>Validate if SEARCH Button is Present in the given Page</name>
+			<title>Validate if SEARCH Button is Present in the given Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119463064" stop="1490119463066" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119463067" stop="1490119463147" status="passed">
+					<name>I validate the SEARCH Button</name>
+					<title>I validate the SEARCH Button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490119463148" stop="1490119467665" status="passed">
+			<name>Enter my zip code so that I can see what facilities</name>
+			<title>Enter my zip code so that I can see what facilities</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119463149" stop="1490119463149" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119463149" stop="1490119463317" status="passed">
+					<name>I enter &quot;30606&quot; in the textbox</name>
+					<title>I enter &quot;30606&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119463317" stop="1490119463651" status="passed">
+					<name>I select Region as &quot;GGA&quot;</name>
+					<title>I select Region as &quot;GGA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119463651" stop="1490119467423" status="passed">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119467423" stop="1490119467665" status="passed">
+					<name>I can see the list of facilities with &quot;Athens Regional Medical Center&quot; and Address as &quot;1199 Prince Avenue&quot; in the first row</name>
+					<title>I can see the list of facilities with &quot;Athens Regional Medical Center&quot; and Address as &quot;1199 Prince Avenue&quot; in the first row</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490119467665" stop="1490119468733" status="passed">
+			<name>Enter my zip code so that I can see what facilities</name>
+			<title>Enter my zip code so that I can see what facilities</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119467665" stop="1490119467666" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119467666" stop="1490119467836" status="passed">
+					<name>I enter &quot;94545&quot; in the textbox</name>
+					<title>I enter &quot;94545&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119467837" stop="1490119468065" status="passed">
+					<name>I select Region as &quot;NCA&quot;</name>
+					<title>I select Region as &quot;NCA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119468065" stop="1490119468484" status="passed">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119468484" stop="1490119468732" status="passed">
+					<name>I can see the list of facilities with &quot;Cronin House&quot; and Address as &quot;2595 Depot Rd&quot; in the first row</name>
+					<title>I can see the list of facilities with &quot;Cronin House&quot; and Address as &quot;2595 Depot Rd&quot; in the first row</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490119468733" stop="1490119469633" status="passed">
+			<name>Enter invalid zip code and valid region</name>
+			<title>Enter invalid zip code and valid region</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119468733" stop="1490119468735" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119468735" stop="1490119468901" status="passed">
+					<name>I enter valid Zipcode with &quot;94545&quot; in the textbox</name>
+					<title>I enter valid Zipcode with &quot;94545&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119468901" stop="1490119469115" status="passed">
+					<name>I select Region as &quot;GGA&quot;</name>
+					<title>I select Region as &quot;GGA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119469115" stop="1490119469548" status="passed">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119469548" stop="1490119469632" status="passed">
+					<name>I do not see the list of facilities</name>
+					<title>I do not see the list of facilities</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490119469633" stop="1490119470557" status="passed">
+			<name>Enter invalid zip code and valid region</name>
+			<title>Enter invalid zip code and valid region</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490119469633" stop="1490119469634" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119469634" stop="1490119469796" status="passed">
+					<name>I enter valid Zipcode with &quot;30605&quot; in the textbox</name>
+					<title>I enter valid Zipcode with &quot;30605&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119469796" stop="1490119470000" status="passed">
+					<name>I select Region as &quot;NCA&quot;</name>
+					<title>I select Region as &quot;NCA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119470000" stop="1490119470477" status="passed">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490119470477" stop="1490119470557" status="passed">
+					<name>I do not see the list of facilities</name>
+					<title>I do not see the list of facilities</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

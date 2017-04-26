@@ -1,0 +1,249 @@
+[
+  {
+    "elements": [
+      {
+        "id": "kaiser-web-page---header-validation;validating-header-multiple-webelements",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Validating Header multiple webelements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit webpage \"https://healthy.kaiserpermanente.org/html/kaiser/index.shtml\"",
+            "result": {
+              "status": "passed",
+              "duration": 2983995
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on header \"My health manager\"",
+            "result": {
+              "status": "passed",
+              "duration": 1843850
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the title \"My Health Manager: Get Wellness and Coverage Information - Kaiser Permanente\"",
+            "result": {
+              "status": "passed",
+              "duration": 3635380623
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "validate the text as \"My Health Manager\" after clicking header",
+            "result": {
+              "status": "passed",
+              "duration": 52925453
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 236918
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/support/hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kaiser-web-page---header-validation;validating-header-multiple-webelements",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validating Header multiple webelements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit webpage \"https://healthy.kaiserpermanente.org/html/kaiser/index.shtml\"",
+            "result": {
+              "status": "passed",
+              "duration": 390857
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on header \"Health & wellness\"",
+            "result": {
+              "status": "passed",
+              "duration": 327184
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the title \"Health & wellness - Kaiser Permanente\"",
+            "result": {
+              "status": "passed",
+              "duration": 1470774949
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "validate the text as \"Health And Wellness\" after clicking header",
+            "result": {
+              "status": "passed",
+              "duration": 36944708
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 77003
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/support/hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "kaiser-web-page---header-validation;validating-header-multiple-webelements",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validating Header multiple webelements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit webpage \"https://healthy.kaiserpermanente.org/html/kaiser/index.shtml\"",
+            "result": {
+              "status": "passed",
+              "duration": 219778
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on header \"Shop health plans\"",
+            "result": {
+              "status": "passed",
+              "duration": 259710
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the title \"Shop health plans - Kaiser Permanente\"",
+            "result": {
+              "status": "passed",
+              "duration": 1276381817
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "validate the text as \"Shop Health Plans\" after clicking header",
+            "result": {
+              "status": "passed",
+              "duration": 37507199
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/step_definitions/Header.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 89612
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/support/hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "kaiser-web-page---header-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Kaiser Web Page - Header validation",
+    "tags": [],
+    "uri": "/Users/rohit/ProductZero/kp-fof-foundation/it.tests/functional/features/kpHeader.feature"
+  }
+]

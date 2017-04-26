@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490118867702" stop="1490118868193">
+	<name>Zipcode Search displays list of facilities</name>
+	<title>Zipcode Search displays list of facilities</title>
+	<test-cases>
+		<test-case start="1490118867702" stop="1490118867924" status="failed">
+			<name>Validate if Zipcode Textbox is Present in the given Page</name>
+			<title>Validate if Zipcode Textbox is Present in the given Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118867702" stop="1490118867704" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118867704" stop="1490118867923" status="failed">
+					<name>I validate the Zipcode Textbox</name>
+					<title>I validate the Zipcode Textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+Error
+    at ElementArrayFinder.applyAction_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:371:27)
+    at ElementArrayFinder._this.(anonymous function) [as isDisplayed] (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:83:30)
+    at ElementFinder._this.(anonymous function) [as isDisplayed] (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:685:22)
+    at Object.visibleFacilityZipCode (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/page/FFL_ZipCode.js:18:24)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:36:21)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490118867925" stop="1490118868014" status="failed">
+			<name>Validate if SEARCH Button is Present in the given Page</name>
+			<title>Validate if SEARCH Button is Present in the given Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118867925" stop="1490118867929" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118867929" stop="1490118868014" status="failed">
+					<name>I validate the SEARCH Button</name>
+					<title>I validate the SEARCH Button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;findFacilityByLocation&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;findFacilityByLocation&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+Error
+    at ElementArrayFinder.applyAction_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:371:27)
+    at ElementArrayFinder._this.(anonymous function) [as isDisplayed] (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:83:30)
+    at ElementFinder._this.(anonymous function) [as isDisplayed] (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:685:22)
+    at Object.visibleFacilityByLocation (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/page/FFL_ZipCode.js:23:35)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:39:21)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490118868014" stop="1490118868066" status="failed">
+			<name>Enter my zip code so that I can see what facilities</name>
+			<title>Enter my zip code so that I can see what facilities</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118868015" stop="1490118868015" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868015" stop="1490118868063" status="failed">
+					<name>I enter &quot;30606&quot; in the textbox</name>
+					<title>I enter &quot;30606&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868063" stop="1490118868063" status="skipped">
+					<name>I select Region as &quot;GGA&quot;</name>
+					<title>I select Region as &quot;GGA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868063" stop="1490118868064" status="skipped">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868064" stop="1490118868066" status="skipped">
+					<name>I can see the list of facilities with &quot;Athens Regional Medical Center&quot; and Address as &quot;1199 Prince Avenue&quot; in the first row</name>
+					<title>I can see the list of facilities with &quot;Athens Regional Medical Center&quot; and Address as &quot;1199 Prince Avenue&quot; in the first row</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: WebElement.clear()
+    at WebDriver.schedule (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:344:17)
+    at WebElementPromise.schedule_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:1712:25)
+    at WebElementPromise.clear (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:2049:17)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:43:22)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490118868066" stop="1490118868111" status="failed">
+			<name>Enter my zip code so that I can see what facilities</name>
+			<title>Enter my zip code so that I can see what facilities</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118868067" stop="1490118868067" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868067" stop="1490118868109" status="failed">
+					<name>I enter &quot;94545&quot; in the textbox</name>
+					<title>I enter &quot;94545&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868109" stop="1490118868109" status="skipped">
+					<name>I select Region as &quot;NCA&quot;</name>
+					<title>I select Region as &quot;NCA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868109" stop="1490118868110" status="skipped">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868111" stop="1490118868111" status="skipped">
+					<name>I can see the list of facilities with &quot;Cronin House&quot; and Address as &quot;2595 Depot Rd&quot; in the first row</name>
+					<title>I can see the list of facilities with &quot;Cronin House&quot; and Address as &quot;2595 Depot Rd&quot; in the first row</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: WebElement.clear()
+    at WebDriver.schedule (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:344:17)
+    at WebElementPromise.schedule_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:1712:25)
+    at WebElementPromise.clear (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:2049:17)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:43:22)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at Immediate._tickCallback (internal/process/next_tick.js:98:9)
+    at runCallback (timers.js:637:20)
+    at tryOnImmediate (timers.js:610:5)
+    at processImmediate [as _immediateCallback] (timers.js:582:5)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490118868112" stop="1490118868150" status="failed">
+			<name>Enter invalid zip code and valid region</name>
+			<title>Enter invalid zip code and valid region</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118868112" stop="1490118868113" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868113" stop="1490118868146" status="failed">
+					<name>I enter valid Zipcode with &quot;94545&quot; in the textbox</name>
+					<title>I enter valid Zipcode with &quot;94545&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868146" stop="1490118868148" status="skipped">
+					<name>I select Region as &quot;GGA&quot;</name>
+					<title>I select Region as &quot;GGA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868148" stop="1490118868149" status="skipped">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868149" stop="1490118868150" status="skipped">
+					<name>I do not see the list of facilities</name>
+					<title>I do not see the list of facilities</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: WebElement.clear()
+    at WebDriver.schedule (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:344:17)
+    at WebElementPromise.schedule_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:1712:25)
+    at WebElementPromise.clear (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:2049:17)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:60:22)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at Immediate._tickCallback (internal/process/next_tick.js:98:9)
+    at runCallback (timers.js:637:20)
+    at tryOnImmediate (timers.js:610:5)
+    at processImmediate [as _immediateCallback] (timers.js:582:5)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1490118868150" stop="1490118868193" status="failed">
+			<name>Enter invalid zip code and valid region</name>
+			<title>Enter invalid zip code and valid region</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490118868151" stop="1490118868151" status="passed">
+					<name>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</name>
+					<title>I go to the website with url &quot;/content/productzero/dec10morning.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868151" stop="1490118868189" status="failed">
+					<name>I enter valid Zipcode with &quot;30605&quot; in the textbox</name>
+					<title>I enter valid Zipcode with &quot;30605&quot; in the textbox</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868189" stop="1490118868189" status="skipped">
+					<name>I select Region as &quot;NCA&quot;</name>
+					<title>I select Region as &quot;NCA&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868189" stop="1490118868191" status="skipped">
+					<name>I click SEARCH button</name>
+					<title>I click SEARCH button</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490118868191" stop="1490118868192" status="skipped">
+					<name>I do not see the list of facilities</name>
+					<title>I do not see the list of facilities</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, .//*[@id=&apos;facilityZipCode&apos;])
+    at WebDriverError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:27:5)
+    at NoSuchElementError (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/error.js:230:5)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/protractor/built/element.js:662:27
+    at Promise.invokeCallback_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:1329:14)
+    at TaskQueue.execute_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2790:14)
+    at TaskQueue.executeNext_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2773:21)
+    at asyncRun (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:2652:27)
+    at /Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: WebElement.clear()
+    at WebDriver.schedule (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:344:17)
+    at WebElementPromise.schedule_ (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:1712:25)
+    at WebElementPromise.clear (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/node_modules/grunt-protractor-runner/node_modules/selenium-webdriver/lib/webdriver.js:2049:17)
+    at World.&lt;anonymous&gt; (/Users/ctsuser/Desktop/Kaiser/squadzero/productzero/it.tests/functional/features/step_definitions/kpFFL_ZipCode.js:60:22)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at Immediate._tickCallback (internal/process/next_tick.js:98:9)
+    at runCallback (timers.js:637:20)
+    at tryOnImmediate (timers.js:610:5)
+    at processImmediate [as _immediateCallback] (timers.js:582:5)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

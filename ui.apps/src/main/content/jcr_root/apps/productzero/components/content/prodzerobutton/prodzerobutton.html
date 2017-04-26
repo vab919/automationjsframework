@@ -1,0 +1,21 @@
+<sly data-sly-include="pocinclude.html" data-sly-unwrap></sly>
+
+<pre data-sly-test="${(!properties.link|| properties.link == 'null' || properties.link == '')}"
+     data-sly-use.prdbtn="com.kp.fof.productzero.core.models.PrdZeroButton" data-sly-unwrap>
+     <button id="prdZeroButton" type="submit" class="btn btn-primary btn-cons" data-selector= ${prdbtn.link}
+      style="width:175px;height:40px;"> ${prdbtn.title}</button>
+</pre>
+
+<pre data-sly-test="${(properties.title && properties.link != 'null' && properties.link != '')}" data-sly-unwrap>
+     <button id="prdZeroButton" type="submit" class="btn btn-primary btn-cons" data-selector=${properties.link}
+      style="width:175px;height:40px;">${properties.title}</button>
+</pre>
+
+<script>
+$(document).ready(function(){
+    $('#prdZeroButton').on('click', function(){
+    var selector = $(this).data('selector');
+    window.open(selector, "_parent");
+    })
+});
+</script>

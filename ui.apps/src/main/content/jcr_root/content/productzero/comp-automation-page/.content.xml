@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-11-02T17:56:20.162-05:00"
+        cq:lastModifiedBy="g155056"
+        cq:lastReplicated="{Date}2016-11-02T17:56:27.833-05:00"
+        cq:lastReplicatedBy="g155056"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/productzero/templates/page-home"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="comp-automation-page"
+        jcr:uuid="368d6ae8-2fd3-4d20-ab5e-5f65a53e98b7"
+        sling:resourceType="productzero/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="productzero/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="productzero/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="productzero/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="productzero/components/content/text"
+                text="&lt;p>This is a home page&lt;/p>"
+                textIsRich="true"/>
+            <helloworld
+                jcr:created="{Date}2016-11-02T17:56:20.158-05:00"
+                jcr:createdBy="g155056"
+                jcr:lastModified="{Date}2016-11-02T17:56:20.158-05:00"
+                jcr:lastModifiedBy="g155056"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="productzero/components/content/helloworld"/>
+        </par>
+    </jcr:content>
+</jcr:root>

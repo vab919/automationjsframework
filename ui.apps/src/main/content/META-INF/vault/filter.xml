@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/productzero">
+        <exclude pattern="/apps/productzero/install" />
+    </filter>
+    <!--<filter root="/apps/sling" /> -->
+    <filter root="/etc/designs/productzero"/>
+    <filter root="/content/productzero/en/automation"/> 
+</workspaceFilter>

@@ -1,0 +1,79 @@
+<facility_data>
+  <regions>
+    <region regionId="GGA" href="/regions/GGA/facilities">
+      <name>Georgia</name>
+      <facilities>
+        <facility facilityId="300288" href="/regions/GGA/facilities/300288">
+          <official_name>Athens Regional Medical Center</official_name>
+          <url>
+            http://kp.org/kpweb/facilitydir/facility.do?id=300288
+          </url>
+          <facility_type>Hospital</facility_type>
+          <core>N</core>
+          <cpm_facilities>
+            <cpm_facilityId>GH5</cpm_facilityId>
+          </cpm_facilities>
+          <affiliated_facility>Yes</affiliated_facility>
+          <affiliated_group_name/>
+          <servicearea_name/>
+          <address>
+            <building_name/>
+            <street>1199 Prince Avenue</street>
+            <city>Athens</city>
+            <state>GA</state>
+            <zip>30606</zip>
+            <address_last_updated>2014-05-08T16:17:13Z</address_last_updated>
+          </address>
+          <phone_numbers>
+            <phone_group>
+              <phone kp_hours="">
+                <phone_type>Local</phone_type>
+                <phone_number>7064757000</phone_number>
+                <vanity_number/>
+                <description/>
+                <label>Information</label>
+                <phoneTags>english,information,local</phoneTags>
+                <formattedPhNbr>706-475-7000</formattedPhNbr>
+              </phone>
+            </phone_group>
+          </phone_numbers>
+          <search_keywords>Hospital</search_keywords>
+        </facility>
+        <facility facilityId="311085" href="/regions/GGA/facilities/311085">
+          <official_name>Bethany Bend Urgent Care</official_name>
+          <url>
+            http://kp.org/kpweb/facilitydir/facility.do?id=311085
+          </url>
+          <facility_type>Urgent Care Center</facility_type>
+          <core>N</core>
+          <cpm_facilities/>
+          <affiliated_facility>Yes</affiliated_facility>
+          <affiliated_group_name/>
+          <servicearea_name/>
+          <address>
+            <building_name/>
+            <street>13081 Highway 9 North</street>
+            <city>Alpharetta</city>
+            <state>GA</state>
+            <zip>30004</zip>
+            <address_last_updated>2014-11-24T19:09:14Z</address_last_updated>
+          </address>
+          <phone_numbers>
+            <phone_group>
+              <phone kp_hours="">
+                <phone_type>Local</phone_type>
+                <phone_number>7705216690</phone_number>
+                <vanity_number/>
+                <description/>
+                <label>Information</label>
+                <phoneTags>information,local</phoneTags>
+                <formattedPhNbr>770-521-6690</formattedPhNbr>
+              </phone>
+            </phone_group>
+          </phone_numbers>
+          <search_keywords>Urgent Care</search_keywords>
+        </facility>
+      </facilities>
+    </region>
+  </regions>
+</facility_data>

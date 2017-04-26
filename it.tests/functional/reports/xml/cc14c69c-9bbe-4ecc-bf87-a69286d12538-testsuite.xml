@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1490207187817" stop="1490207190109">
+	<name>Kaiser Web Page - Hello component validation</name>
+	<title>Kaiser Web Page - Hello component validation</title>
+	<test-cases>
+		<test-case start="1490207187820" stop="1490207188998" status="passed">
+			<name>Validating Hello Component</name>
+			<title>Validating Hello Component</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490207187821" stop="1490207187826" status="passed">
+					<name>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</name>
+					<title>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207187827" stop="1490207188850" status="passed">
+					<name>I search for  &quot;COMP-AUTOMATION-PAGE&quot;</name>
+					<title>I search for  &quot;COMP-AUTOMATION-PAGE&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207188850" stop="1490207188997" status="passed">
+					<name>I validate the &quot;COMP-AUTOMATION-PAGE&quot;</name>
+					<title>I validate the &quot;COMP-AUTOMATION-PAGE&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490207189001" stop="1490207189608" status="passed">
+			<name>Validating Instance and Resource Type</name>
+			<title>Validating Instance and Resource Type</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490207189001" stop="1490207189002" status="passed">
+					<name>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</name>
+					<title>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207189003" stop="1490207189477" status="passed">
+					<name>I search for body content &quot;This is a home page&quot;</name>
+					<title>I search for body content &quot;This is a home page&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207189477" stop="1490207189608" status="passed">
+					<name>I validate the body content &quot;This is a home page&quot;</name>
+					<title>I validate the body content &quot;This is a home page&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1490207189609" stop="1490207190108" status="passed">
+			<name>Validating Instance and Resource Type</name>
+			<title>Validating Instance and Resource Type</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1490207189610" stop="1490207189611" status="passed">
+					<name>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</name>
+					<title>I visit AEM webpage &quot;/content/productzero/comp-automation-page.html&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207189611" stop="1490207189948" status="passed">
+					<name>I search for body content &quot;Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.&quot;</name>
+					<title>I search for body content &quot;Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+				<step start="1490207189948" stop="1490207190108" status="passed">
+					<name>I validate the body content &quot;Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.&quot;</name>
+					<title>I validate the body content &quot;Hello, world! I am a component, built to demonstrate component development in AEM. I was created using BDD, with automated test suites, and the Factory of the Future Pipeline. I will continue to evolve as my masters come up with new ideas.&quot;</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
